@@ -2,8 +2,6 @@ package Model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Random;
-import java.util.Scanner;
 
 public class App {
     private int cantNames;
@@ -37,14 +35,14 @@ public class App {
         }
         if (cantNames >= 2 && cantLastNames >= 1) {
             ArrayList<String> selectedNames = (maleNames.size() >= cantNames) ? maleNames : femaleNames;
-
-            generateCombinations(selectedNames, lastNames, result, new ArrayList<>(), 0);
+            generateCombinations(femaleNames, result, new ArrayList<>(), 0);
+            generateCombinations(maleNames, result, new ArrayList<>(), 0);
         }
         Input input = new Input();
         input.write(result.toArray(new String[0]), this.fileName);
     }
 
-    private void generateCombinations(ArrayList<String> names, String[] lastNames, ArrayList<String> result, ArrayList<String> currentCombo, int index) {
+    private void generateCombinationsGpt(ArrayList<String> names, String[] lastNames, ArrayList<String> result, ArrayList<String> currentCombo, int index) {
         if (currentCombo.size() == cantNames) {
             for (String lastName : lastNames) {
                 StringBuilder combination = new StringBuilder();
@@ -59,8 +57,32 @@ public class App {
 
         for (int i = index; i < names.size(); i++) {
             currentCombo.add(names.get(i));
-            generateCombinations(names, lastNames, result, currentCombo, i + 1);
+            generateCombinationsGpt(names, lastNames, result, currentCombo, i + 1);
             currentCombo.remove(currentCombo.size() - 1);
+        }
+    }
+    private void generateCombinations(ArrayList<String> names, ArrayList<String> result, ArrayList<String> currentCombo, int index) {
+        if (currentCombo.size() == cantNames) {
+            for (String lastName : lastNames) {
+                StringBuilder combination = new StringBuilder();
+                for (String name : currentCombo) {
+                    combination.append(name).append(" ");
+                }
+                combination.append(lastName);
+                result.add(combination.toString());
+            }
+            return;
+        }
+
+        for (int i = index; i < names.size(); i++) {
+            String name = names.get(i);
+            boolean isMale = isMale(name);
+
+            if (currentCombo.isEmpty() || isMale == isMale(currentCombo.get(0))) {
+                currentCombo.add(name);
+                generateCombinations(names, result, currentCombo, i + 1);
+                currentCombo.remove(currentCombo.size() - 1);
+            }
         }
     }
     public void namesSeparatingByGender(){

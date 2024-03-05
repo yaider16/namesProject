@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4d88d00-5322-42b8-b300-86e632f04764" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/juantest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juanxd3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juanxd4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lastNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/names.txt" afterDir="false" />
+    <list default="true" id="d4d88d00-5322-42b8-b300-86e632f04764" name="Changes" comment="guardado de seguridad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/juantest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/juanxd3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/juanxd4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +91,7 @@
       <workItem from="1709588079542" duration="319000" />
       <workItem from="1709588408181" duration="184000" />
       <workItem from="1709588602326" duration="9966000" />
-      <workItem from="1709598903635" duration="2935000" />
+      <workItem from="1709598903635" duration="3640000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -108,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709588741633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="guardado de seguridad">
+      <option name="closed" value="true" />
+      <created>1709601920082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709601920082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="guardado de seguridad" />
+    <option name="LAST_COMMIT_MESSAGE" value="guardado de seguridad" />
   </component>
 </project>
