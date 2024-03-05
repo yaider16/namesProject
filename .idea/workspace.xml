@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4d88d00-5322-42b8-b300-86e632f04764" name="Changes" comment="guardado de seguridad">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juantest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/juanxd3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/juanxd4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4d88d00-5322-42b8-b300-86e632f04764" name="Changes" comment="It is not finished yet but it has a progress" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +85,7 @@
       <workItem from="1709588079542" duration="319000" />
       <workItem from="1709588408181" duration="184000" />
       <workItem from="1709588602326" duration="9966000" />
-      <workItem from="1709598903635" duration="3640000" />
+      <workItem from="1709598903635" duration="3733000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -109,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709601920082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="It is not finished yet but it has a progress">
+      <option name="closed" value="true" />
+      <created>1709602621924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709602621924</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +121,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="guardado de seguridad" />
-    <option name="LAST_COMMIT_MESSAGE" value="guardado de seguridad" />
+    <MESSAGE value="It is not finished yet but it has a progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="It is not finished yet but it has a progress" />
   </component>
 </project>
